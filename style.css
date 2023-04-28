@@ -315,6 +315,13 @@ section p {
   padding: 0;
 }
 
+.about h2 {
+  padding-top: 3.5em;
+  left: 100px;
+  color: #fff;
+  position: relative;
+}
+
 .gelvice {
   background: fixed;
 }
@@ -337,7 +344,11 @@ section p {
 }
 
 .description-container p {
-  padding-top: 1.5em;
+  margin: 10px;
+  margin-bottom: 50px;
+  padding-top: 1em;
+  color: #fff;
+  text-align: justify;
 }
 
 .description-container h2 {
@@ -346,15 +357,10 @@ section p {
   align-items: center;
 }
 
-/*.about * {
-  margin: 0;
-  padding: 0;
-}*/
-
-/*.about body {
-  font-family: "Raleway", sans-serif;
-  background-color: #efefef;
-}*/
+.description-container h3 {
+  margin: 40px;
+  color: #fff;
+}
 
 /*contact us page*/
 .contact body {
@@ -399,4 +405,62 @@ section p {
   background-color: #47c35a;
   font-size: 12px;
   border: none;
+}
+
+/* Game Page*/
+
+.tictac body {
+  font-family: "Raleway", sans-serif;
+  background-color: #8c52ff;
+}
+
+.tictac h1 {
+  margin: 0;
+  padding: 0;
+  padding-top: 2.5em;
+  text-align: center;
+}
+
+article {
+  text-align: center;
+  border-radius: 10px;
+  width: 400px;
+  margin: auto;
+  background-color: #fff;
+  margin-top: 75px;
+  box-shadow: 0px 10px 36px 16px rgba(0, 0, 0, 0.1);
+}
+.game--title {
+  padding-top: 20px;
+}
+.game--container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 150px;
+  margin: 120px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.cell {
+  font-family: "Poppins", sans-serif;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 0 0 1px #333333;
+  border: 1px solid #333333;
+  cursor: pointer;
+  line-height: 50px;
+  font-size: 20px;
+}
+button {
+  margin-bottom: 20px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #8c52ff;
+  cursor: pointer;
+}
+button:hover {
+  transition: 0.25s;
+  background-color: #c1a2fe;
 }
