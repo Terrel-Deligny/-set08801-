@@ -1,0 +1,402 @@
+/*Home Page Design*/
+
+body {
+  font-family: "Raleway", sans-serif;
+  background: #c386ce;
+}
+
+.navbar-brand {
+  font-size: 60px;
+}
+
+.contents h2 {
+  font-weight: bold;
+  font-size: 100px;
+}
+
+.contents p {
+  font-size: 30px;
+  padding-top: 70px;
+  text-align: justify;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 100px;
+}
+
+section h2 {
+  position: relative;
+  color: #fff;
+  font-size: 3em;
+}
+
+section p {
+  position: relative;
+  color: #fff;
+  font-size: 3em;
+}
+
+.content {
+  position: static;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 160px;
+  text-align: center;
+  color: transparent;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.content h1:hover {
+  -webkit-text-stroke: 2px #fff;
+  color: white;
+}
+
+.content a {
+  text-decoration: none;
+  display: inline-flex;
+  color: #fff;
+  font-size: 24px;
+  border: 2px solid #fff;
+  padding: 14px 70px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+.back-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .back-video {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/*. Gelato page*/
+
+.carousel-item h5 {
+  padding-top: 50px;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.carousel-item p {
+  font-size: 20px;
+}
+
+.imgCarouselSlide {
+  width: 70%;
+}
+
+.slideshow {
+  max-height: 50%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+/*sorbet page!*/
+
+.sorbet2 body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery1-text h1 {
+  font-size: 100px;
+  font-style: italic;
+}
+
+.gallery1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/sorbets2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.gallery1-text {
+  position: absolute;
+  top: 40%;
+  left: 36%;
+  color: white;
+  font-size: 40px;
+}
+
+#effect {
+  width: 100;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.flavor {
+  color: #fff;
+  font-style: italic;
+  font-size: 70px;
+  position: absolute;
+  top: 250px;
+  left: 70px;
+}
+
+.description {
+  color: #fff;
+  margin-left: -700px;
+  font-size: 20px;
+}
+
+.img2 {
+  width: 40vw;
+  height: 60vh;
+  position: absolute;
+  background-image: url(images/blackberry.jpg);
+  background-size: cover;
+  margin-right: -500px;
+}
+
+.flavor1 {
+  color: #fff;
+  font-style: italic;
+  font-size: 70px;
+  position: absolute;
+  top: 700px;
+  left: 70px;
+}
+
+.description1 {
+  color: #fff;
+  position: absolute;
+  top: 900px;
+  left: 70px;
+  margin-left: 70px;
+  font-size: 20px;
+}
+
+.img3 {
+  top: 750px;
+  width: 40vw;
+  height: 60vh;
+  position: absolute;
+  background-image: url(images/cantaloupe.jpg);
+  background-size: cover;
+  margin-left: 500px;
+}
+
+.flavor2 {
+  color: #fff;
+  font-size: 70px;
+  position: absolute;
+  top: 1400px;
+  left: 170px;
+}
+
+.description2 {
+  color: #fff;
+  position: absolute;
+  top: 1500px;
+  left: 70px;
+  margin-left: 70px;
+  font-size: 20px;
+}
+
+.img4 {
+  top: 1300px;
+  width: 40vw;
+  height: 60vh;
+  position: absolute;
+  background-image: url(images/kiwi.jpg);
+  background-size: cover;
+  margin-left: 500px;
+}
+
+.flavor3 {
+  color: #fff;
+  font-size: 70px;
+  position: absolute;
+  top: 1900px;
+  left: 170px;
+}
+
+.description3 {
+  color: #fff;
+  position: absolute;
+  top: 2000px;
+  left: 70px;
+  margin-left: 170px;
+  font-size: 20px;
+}
+
+.img5 {
+  top: 1950px;
+  width: 40vw;
+  height: 60vh;
+  position: absolute;
+  background-image: url(images/limesorbet.jpg);
+  background-size: cover;
+  margin-left: 500px;
+}
+
+/*.flavor4 {
+  position: absolute;
+  top: 2200px;
+  left: 170px;
+}
+
+.description4 {
+  position: absolute;
+  top: 2000px;
+  left: 70px;
+  margin-left: 70px;
+  font-size: 20px;
+}*/
+
+.img6 {
+  top: 2500px;
+  width: 40vw;
+  height: 60vh;
+  position: absolute;
+  background-image: url(images/strawberry.2jpg.jpeg);
+  background-size: cover;
+  margin-left: 500px;
+}
+
+.flavor5 {
+  color: #fff;
+  font-size: 70px;
+  position: absolute;
+  top: 2600px;
+  left: 170px;
+}
+
+.description5 {
+  color: #fff;
+  position: absolute;
+  top: 2700px;
+  left: 70px;
+  margin-left: 70px;
+  font-size: 20px;
+}
+
+.img7 {
+  top: 2500px;
+  width: 40vw;
+  height: 60vh;
+  position: absolute;
+  background-image: url(images/blueberry.jpg);
+  background-size: cover;
+  margin-left: 500px;
+}
+
+/* About Page*/
+
+.about {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.gelvice {
+  background: fixed;
+}
+.left {
+  top: 100px;
+  float: left;
+  padding: 0 20px 20px 0;
+  right: 30;
+}
+
+.right {
+  float: right;
+  padding: 0 0 20px 20px;
+  left: 30;
+}
+
+.img-responsive {
+  padding: 20px;
+  width: 50em;
+}
+
+.description-container p {
+  padding-top: 1.5em;
+}
+
+.description-container h2 {
+  top: 10;
+  padding-top: 20em;
+  align-items: center;
+}
+
+/*.about * {
+  margin: 0;
+  padding: 0;
+}*/
+
+/*.about body {
+  font-family: "Raleway", sans-serif;
+  background-color: #efefef;
+}*/
+
+/*contact us page*/
+.contact body {
+  background: #999;
+}
+
+.contact-box {
+  width: 500px;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0 #999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.form {
+  margin: 35px;
+}
+
+.input-field {
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline: none;
+}
+
+.textarea-field {
+  height: 150px;
+  padding-top: 10px;
+}
+
+.btn {
+  border-radius: 20px;
+  color: #fff;
+  margin-top: 18px;
+  padding: 10px;
+  background-color: #47c35a;
+  font-size: 12px;
+  border: none;
+}
